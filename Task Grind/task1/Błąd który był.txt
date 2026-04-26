@@ -1,0 +1,4 @@
+1.Przypadek pustej listy. 
+W języku Python próba podzielenia liczby przez zero skutkuje błędem ZeroDivisionError, co natychmiastowo przerywa działanie programu.
+
+2.W przypadku braku klucza 'age', metoda .get() przypisuje rekordowi domyślną wartość 0, co pozwala na kontynuowanie obliczeń średniej bez przerywania działania programu błędem KeyError.

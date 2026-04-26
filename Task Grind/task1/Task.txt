@@ -1,0 +1,10 @@
+Zadanie 1 — popraw kod
+Otwórz plik bad_example.py.
+
+Twoje zadanie:
+
+znajdź błąd,
+zapytaj AI, co jest nie tak,
+popraw kod,
+uruchom testy,
+upewnij się, że rozumiesz poprawkę.
