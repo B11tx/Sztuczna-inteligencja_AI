@@ -1,0 +1,5 @@
+Kod zawiera:
+1.Test dla typowych danych zdrowego pacjenta.
+2.Test dla wartości granicznych (zero).
+3.Sprawdzenie, czy ujemny wiek rzuca ValueError.
+4.Edge case: bardzo wysoki cholesterol
