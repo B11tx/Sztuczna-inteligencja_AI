@@ -1,0 +1,5 @@
+Wybrałem plik risk_score.py do refaktoryzacji, ponieważ w rzeczywistych projektach AI parametry ryzyka często się zmieniają i wymagają lepszej struktury danych.
+
+Poprosiłem AI o przebudowanie funkcji calculate_risk_score. Zamiast przyjmować trzy osobne argumenty (age, cholesterol, max_heart_rate), AI zaproponowało użycie jednego słownika patient_data. Dodatkowo, wagi modelu zostały wyciągnięte do osobnej zmiennej weights, a wynik jest liczony w pętli.
+Każda zmiana parametrów wymagała zmiany definicji funkcji. 
+Teraz kod jest modułowy. Jeśli będziemy chcieli dodać 10 nowych cech pacjenta, nie musimy zmieniać logiki obliczeń, a jedynie dopisać pozycję do słownika.
